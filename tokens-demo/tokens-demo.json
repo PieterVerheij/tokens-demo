@@ -87,7 +87,7 @@
       }
     }
   },
-  "Iprox": {
+  "One": {
     "button": {
       "primary": {
         "default": {
@@ -171,7 +171,8 @@
       },
       "selectedTokenSets": {
         "global": "enabled",
-        "Acme Corp": "enabled"
+        "Acme Corp": "enabled",
+        "One": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:31:65",
       "$figmaModeId": "31:4",
@@ -203,7 +204,7 @@
     },
     {
       "id": "f0b45aa8ab2eed95d3e506062c51c1312abb0f40",
-      "name": "Theme Iprox",
+      "name": "Theme One",
       "$figmaStyleReferences": {
         "button.primary.default.background-color.500": "S:c0746c4d151f0771b2debb8a7a559a9227626f30,",
         "button.primary.hover.background-color.500": "S:cb0b849f344d3624e552f05d6d893135c0d0f4b3,",
@@ -216,7 +217,7 @@
       },
       "selectedTokenSets": {
         "global": "enabled",
-        "Iprox": "enabled"
+        "One": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:31:41",
       "$figmaModeId": "31:3",
@@ -250,7 +251,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "global",
-      "Iprox",
+      "One",
       "Acme Corp"
     ]
   }
