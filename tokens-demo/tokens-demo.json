@@ -93,7 +93,7 @@
         "default": {
           "background-color": {
             "500": {
-              "value": "{colors.orange.100}",
+              "value": "{colors.orange.500}",
               "type": "color"
             }
           }
@@ -181,11 +181,11 @@
         "button.primary.padding": "e06527901523eca5919bf8a66b9f7967569259ce",
         "button.primary.border-radius": "6bd3d73be09a68d3feea5257e016f64fe82c94e1",
         "button.primary.font-family": "a8184f38473951517b4f0cc56f132d1806dce42f",
-        "colors.red.500": "3a8089fef5f23ece2c8cd5987dd13a8da1928801",
-        "colors.orange.500": "d0b396e36f7499a1ae4a8d1971276d7e11cf1613",
         "colors.red.100": "fe3bb1b2814bcc3a8bca960a1afb862ca8440743",
-        "colors.orange.100": "01af21a2c0c907676ae77033f3853d4f0fc4dcba",
+        "colors.red.500": "3a8089fef5f23ece2c8cd5987dd13a8da1928801",
         "colors.red.900": "d3b960bf643fb9bb98336d53e69bb3c74876aec4",
+        "colors.orange.100": "01af21a2c0c907676ae77033f3853d4f0fc4dcba",
+        "colors.orange.500": "d0b396e36f7499a1ae4a8d1971276d7e11cf1613",
         "colors.orange.900": "4cafa5d1e55a3da46429be0973ead4e6e386bdb5",
         "font-family.OpenSans": "f7fa8fc2b70122d0d1ed0f416bf69f73c2af480b",
         "font-family.SourceSerif4": "9b23791366e12d09b46c0229a86f810714278304",
