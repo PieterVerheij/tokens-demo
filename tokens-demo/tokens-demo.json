@@ -1,0 +1,257 @@
+{
+  "global": {
+    "colors": {
+      "red": {
+        "100": {
+          "value": "#fee2e2",
+          "type": "color"
+        },
+        "500": {
+          "value": "#ef4444",
+          "type": "color"
+        },
+        "900": {
+          "value": "#7f1d1d",
+          "type": "color"
+        }
+      },
+      "orange": {
+        "100": {
+          "value": "#ffedd5",
+          "type": "color"
+        },
+        "500": {
+          "value": "#f97316",
+          "type": "color"
+        },
+        "900": {
+          "value": "#7c2d12",
+          "type": "color"
+        }
+      }
+    },
+    "font-family": {
+      "OpenSans": {
+        "value": "Open Sans",
+        "type": "fontFamilies"
+      },
+      "SourceSerif4": {
+        "value": "Source Serif 4",
+        "type": "fontFamilies"
+      }
+    },
+    "font-weight": {
+      "ExtraBold": {
+        "value": "900",
+        "type": "fontWeights"
+      },
+      "Bold": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "Regular": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "Light": {
+        "value": "300",
+        "type": "fontWeights"
+      }
+    },
+    "border-radius": {
+      "xs": {
+        "value": "4",
+        "type": "borderRadius"
+      },
+      "s": {
+        "value": "8",
+        "type": "borderRadius"
+      }
+    },
+    "spacing": {
+      "XS": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "S": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "M": {
+        "value": "12",
+        "type": "spacing"
+      },
+      "L": {
+        "value": "16",
+        "type": "spacing"
+      }
+    }
+  },
+  "Iprox": {
+    "button": {
+      "primary": {
+        "default": {
+          "background-color": {
+            "500": {
+              "value": "{colors.orange.500}",
+              "type": "color"
+            }
+          }
+        },
+        "hover": {
+          "background-color": {
+            "500": {
+              "value": "{colors.orange.100}",
+              "type": "color"
+            }
+          }
+        },
+        "padding": {
+          "value": "{spacing.S}",
+          "type": "spacing"
+        },
+        "border-radius": {
+          "value": "{border-radius.s}",
+          "type": "borderRadius"
+        },
+        "font-family": {
+          "value": "{font-family.OpenSans}",
+          "type": "fontFamilies"
+        }
+      }
+    }
+  },
+  "Acme Corp": {
+    "button": {
+      "primary": {
+        "default": {
+          "background-color": {
+            "500": {
+              "value": "{colors.orange.500}",
+              "type": "color"
+            }
+          }
+        },
+        "hover": {
+          "background-color": {
+            "500": {
+              "value": "{colors.orange.100}",
+              "type": "color"
+            }
+          }
+        },
+        "padding": {
+          "value": "{spacing.S}",
+          "type": "spacing"
+        },
+        "border-radius": {
+          "value": "{border-radius.xs}",
+          "type": "borderRadius"
+        },
+        "font-family": {
+          "value": "{font-family.SourceSerif4}",
+          "type": "fontFamilies"
+        }
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "3041d6fc19717ab2ab4689d43587c350d3f1dc29",
+      "name": "Theme Acme",
+      "$figmaStyleReferences": {
+        "button.primary.default.background-color.500": "S:c0746c4d151f0771b2debb8a7a559a9227626f30,",
+        "button.primary.hover.background-color.500": "S:cb0b849f344d3624e552f05d6d893135c0d0f4b3,",
+        "colors.red.500": "S:f6e4e1976ba571d4d8d37bced88acb69c0842c2d,",
+        "colors.orange.500": "S:c2ed5738116fc7bbc598fd7525dad1c76a873976,",
+        "colors.red.100": "S:9500712ce6405d2c67c3ed1c41e964a4c862099e,",
+        "colors.orange.100": "S:47299c4286411ca2a1064bc26e22e46e9b6fd9e6,",
+        "colors.red.900": "S:c11504278effc0b3a90bfa0caf49402de1ca7958,",
+        "colors.orange.900": "S:de0a55b2f7ad225129d6f31cc3bc3d9f734f3162,"
+      },
+      "selectedTokenSets": {
+        "global": "enabled",
+        "Acme Corp": "enabled"
+      },
+      "$figmaCollectionId": "VariableCollectionId:31:65",
+      "$figmaModeId": "31:4",
+      "$figmaVariableReferences": {
+        "button.primary.default.background-color.500": "122a215b47b3c520650a1b95d32d7c3d5616a8d3",
+        "button.primary.hover.background-color.500": "a0b81c0ee8564d537002dfff465dbdacfbbec83f",
+        "button.primary.padding": "e06527901523eca5919bf8a66b9f7967569259ce",
+        "button.primary.border-radius": "6bd3d73be09a68d3feea5257e016f64fe82c94e1",
+        "button.primary.font-family": "a8184f38473951517b4f0cc56f132d1806dce42f",
+        "colors.red.500": "3a8089fef5f23ece2c8cd5987dd13a8da1928801",
+        "colors.orange.500": "d0b396e36f7499a1ae4a8d1971276d7e11cf1613",
+        "colors.red.100": "fe3bb1b2814bcc3a8bca960a1afb862ca8440743",
+        "colors.orange.100": "01af21a2c0c907676ae77033f3853d4f0fc4dcba",
+        "colors.red.900": "d3b960bf643fb9bb98336d53e69bb3c74876aec4",
+        "colors.orange.900": "4cafa5d1e55a3da46429be0973ead4e6e386bdb5",
+        "font-family.OpenSans": "f7fa8fc2b70122d0d1ed0f416bf69f73c2af480b",
+        "font-family.SourceSerif4": "9b23791366e12d09b46c0229a86f810714278304",
+        "font-weight.ExtraBold": "e4ebf171af12cde3d6e80d330d320db8a4848faa",
+        "font-weight.Bold": "921892bd81c34495269c9916fc8215d86d9acec5",
+        "font-weight.Regular": "b143f548b48d6a1480a98a7edb86aadd614f3c76",
+        "font-weight.Light": "f265594275d4f3ba7422113af5a5522409fb365e",
+        "border-radius.xs": "a9963d53274875ae69bee6cc726f017f9cd19813",
+        "border-radius.s": "7b2321d537e7b5a9f7d8a3e620f15c4c48b1d625",
+        "spacing.XS": "df9b0bfa3ebc1f414de1e80d6d97249b47dcc555",
+        "spacing.S": "139e301df5e7a7d77b345ea321ad31f9fb3485cc",
+        "spacing.M": "e933dd85f878e47bddcb836ebe6a00a59b5c99b0",
+        "spacing.L": "d05596735f7adb1962f77e334cd72cd77360cf2d"
+      }
+    },
+    {
+      "id": "f0b45aa8ab2eed95d3e506062c51c1312abb0f40",
+      "name": "Theme Iprox",
+      "$figmaStyleReferences": {
+        "button.primary.default.background-color.500": "S:c0746c4d151f0771b2debb8a7a559a9227626f30,",
+        "button.primary.hover.background-color.500": "S:cb0b849f344d3624e552f05d6d893135c0d0f4b3,",
+        "colors.red.500": "S:f6e4e1976ba571d4d8d37bced88acb69c0842c2d,",
+        "colors.orange.500": "S:c2ed5738116fc7bbc598fd7525dad1c76a873976,",
+        "colors.red.100": "S:9500712ce6405d2c67c3ed1c41e964a4c862099e,",
+        "colors.orange.100": "S:47299c4286411ca2a1064bc26e22e46e9b6fd9e6,",
+        "colors.red.900": "S:c11504278effc0b3a90bfa0caf49402de1ca7958,",
+        "colors.orange.900": "S:de0a55b2f7ad225129d6f31cc3bc3d9f734f3162,"
+      },
+      "selectedTokenSets": {
+        "global": "enabled",
+        "Iprox": "enabled"
+      },
+      "$figmaCollectionId": "VariableCollectionId:31:41",
+      "$figmaModeId": "31:3",
+      "$figmaVariableReferences": {
+        "button.primary.default.background-color.500": "58053b83a13818a3850f69c6605a19bb4447b4a8",
+        "button.primary.hover.background-color.500": "1be5a5af92cc351fd06f664d112a7a322c2732f3",
+        "button.primary.padding": "0fbbaa9b20d333a86e618e76913c0bd809facc75",
+        "button.primary.border-radius": "d50c50548adf3d85f220d64285a6ec6e7086ba87",
+        "button.primary.font-family": "6231139771bc7f0b4c2fa35edd8bdf2efce108a5",
+        "colors.red.500": "526ae74ffd7a04b452296eff6821ba963be76395",
+        "colors.orange.500": "e63222d724ca33378459b79453f88e5b62d3cbf0",
+        "colors.red.100": "b61a10916424f93d82350e8a8d59ce4204c68b7d",
+        "colors.orange.100": "90a865311168609521fafe354c25aad3af1c4f90",
+        "colors.red.900": "3d04f23b39c5a57a09fc869779e080334800b5b3",
+        "colors.orange.900": "64290764fd6f091c7a715324750ff23a4fba7d2e",
+        "font-family.OpenSans": "2d8a9660c776ee6816ffa30cd532d2887e5904ac",
+        "font-family.SourceSerif4": "725b499f6423c1db94b79b7c666cff527b24ce01",
+        "font-weight.ExtraBold": "9a7406c8b9eb636c234c9c96bafa276eadd124ac",
+        "font-weight.Bold": "18193943921ee61739b4e85100e1000c95f7a477",
+        "font-weight.Regular": "e03bf26c772970627ae7cba12a0ba9d294efe6c1",
+        "font-weight.Light": "2ef297d8c22a449cb301bce8a32dd0199ea9801a",
+        "border-radius.xs": "e405ee9e665adbac788dd73f080b7b84783ce3f6",
+        "border-radius.s": "5eb903e868f3d3c79a11b7f11a427533f193cd8d",
+        "spacing.XS": "75904b796c3de424dd5785c8ebd3089f401c2e94",
+        "spacing.S": "486384f4021299e77446cc9b116bf6af0da19d4d",
+        "spacing.M": "3ab3b2018df88306e17f6d57918b27ea551bf3f9",
+        "spacing.L": "f49b78e08f367bfbed07d1ea4b50944c4339c04d"
+      }
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "Iprox",
+      "Acme Corp"
+    ]
+  }
+}
