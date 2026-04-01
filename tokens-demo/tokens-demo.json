@@ -3,87 +3,87 @@
     "colors": {
       "red": {
         "100": {
-          "value": "#fee2e2",
-          "type": "color"
+          "$type": "color",
+          "$value": "#fee2e2"
         },
         "500": {
-          "value": "#ef4444",
-          "type": "color"
+          "$type": "color",
+          "$value": "#ef4444"
         },
         "900": {
-          "value": "#7f1d1d",
-          "type": "color"
+          "$type": "color",
+          "$value": "#7f1d1d"
         }
       },
       "orange": {
         "100": {
-          "value": "#ffedd5",
-          "type": "color"
+          "$type": "color",
+          "$value": "#ffedd5"
         },
         "500": {
-          "value": "#f97316",
-          "type": "color"
+          "$type": "color",
+          "$value": "#f97316"
         },
         "900": {
-          "value": "#7c2d12",
-          "type": "color"
+          "$type": "color",
+          "$value": "#7c2d12"
         }
       }
     },
     "font-family": {
       "OpenSans": {
-        "value": "Open Sans",
-        "type": "fontFamilies"
+        "$type": "fontFamilies",
+        "$value": "Open Sans"
       },
       "SourceSerif4": {
-        "value": "Source Serif 4",
-        "type": "fontFamilies"
+        "$type": "fontFamilies",
+        "$value": "Source Serif 4"
       }
     },
     "font-weight": {
       "ExtraBold": {
-        "value": "900",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "900"
       },
       "Bold": {
-        "value": "700",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "700"
       },
       "Regular": {
-        "value": "400",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "400"
       },
       "Light": {
-        "value": "300",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "300"
       }
     },
     "border-radius": {
       "xs": {
-        "value": "4",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "4"
       },
       "s": {
-        "value": "8",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "8"
       }
     },
     "spacing": {
       "XS": {
-        "value": "4",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "4"
       },
       "S": {
-        "value": "8",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "8"
       },
       "M": {
-        "value": "12",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "12"
       },
       "L": {
-        "value": "16",
-        "type": "spacing"
+        "$type": "spacing",
+        "$value": "16"
       }
     }
   },
@@ -93,30 +93,30 @@
         "default": {
           "background-color": {
             "500": {
-              "value": "{colors.orange.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{colors.orange.500}"
             }
           }
         },
         "hover": {
           "background-color": {
             "500": {
-              "value": "{colors.orange.100}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{colors.orange.100}"
             }
           }
         },
         "padding": {
-          "value": "{spacing.S}",
-          "type": "spacing"
+          "$type": "spacing",
+          "$value": "{spacing.S}"
         },
         "border-radius": {
-          "value": "{border-radius.s}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{border-radius.s}"
         },
         "font-family": {
-          "value": "{font-family.OpenSans}",
-          "type": "fontFamilies"
+          "$type": "fontFamilies",
+          "$value": "{font-family.OpenSans}"
         }
       }
     }
@@ -127,30 +127,30 @@
         "default": {
           "background-color": {
             "500": {
-              "value": "{colors.red.500}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{colors.red.500}"
             }
           }
         },
         "hover": {
           "background-color": {
             "500": {
-              "value": "{colors.red.100}",
-              "type": "color"
+              "$type": "color",
+              "$value": "{colors.red.100}"
             }
           }
         },
         "padding": {
-          "value": "{spacing.S}",
-          "type": "spacing"
+          "$type": "spacing",
+          "$value": "{spacing.S}"
         },
         "border-radius": {
-          "value": "{border-radius.xs}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{border-radius.xs}"
         },
         "font-family": {
-          "value": "{font-family.SourceSerif4}",
-          "type": "fontFamilies"
+          "$type": "fontFamilies",
+          "$value": "{font-family.SourceSerif4}"
         }
       }
     }
